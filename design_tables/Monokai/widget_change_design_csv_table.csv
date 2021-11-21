@@ -1,0 +1,13 @@
+window;background-color;#2e2e2e
+label_design;font-family;Ubuntu
+label_design;font-size;16px
+label_design;color;#d6d6d6
+ok_button;font-family;Ubuntu
+ok_button;font-size;16px
+ok_button;color;#e87d3e
+cancel_button;font-family;Ubuntu
+cancel_button;font-size;16px
+cancel_button;color;#e87d3e
+all_designs_combo;font-family;Ubuntu
+all_designs_combo;font-size;16px
+all_designs_combo;color;#d6d6d6

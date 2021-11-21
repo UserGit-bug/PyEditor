@@ -1,0 +1,11 @@
+window;background-color;#07000a
+menubar;background-color;#07000a
+menubar;color;#fff785
+filemenu;background-color;#07000a
+filemenu;color;#fff785
+list_with_files;background-color;#07000a
+list_with_files;color;#fff785
+editor;background-color;#07000a
+editor;color;#e87d3e
+editor;font-family;Ubuntu
+editor;font-size;22px

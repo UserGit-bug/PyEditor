@@ -1,0 +1,10 @@
+name;HEX-colour;bold;italic
+keyword;#b4d273;Fasle;False
+operator;#e5b567;Fasle;False
+brace;#e5b567;Fasle;False
+defclass;#6c99bb;True;False
+string;#6c99bb;False;False
+string2;#88008b;Fasle;False
+comment;#797979;False;True
+self;#e5b567;False;False
+numbers;#9e86c8;Fasle;False
