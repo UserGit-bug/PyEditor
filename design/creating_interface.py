@@ -4,7 +4,7 @@ import os
 from PyQt5.QtCore import QDir, Qt, QEvent
 from PyQt5.QtWidgets import QAction
 from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog, QFileSystemModel
-from PyQt5.QtGui import QTextCursor
+from PyQt5.QtGui import QTextCursor, QIcon
 
 
 from interface import Ui_MainWindow
@@ -26,11 +26,26 @@ class Program(QMainWindow, Ui_MainWindow):
         super().__init__()
         self.setupUi(self)
         self.main_layout.setEnabled(True)
+
+        # Making a title of program
         self.setWindowTitle('PyEditor')
+
+        # Create filemenu in menubar
         self.create_filemenu()
+
+        # Create editmenu in menubar
         self.create_editmenu()
+
+        # Connect design to the window
         self.update_design()
+
+        # Connect icon to the window
+        self.setWindowIcon(QIcon('icon.png'))
+
+        # Connect PythonHighlighter for self.editor
         self.highlight = PythonHighlighter(self.editor.document())
+
+        # Setting of some elements in window
         self.editor.installEventFilter(self)
         self.list_with_files.doubleClicked.connect(self.open_the_file_from_list)
 
